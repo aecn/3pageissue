@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Info</title>
+
+<!--Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-color: #dbe7e4;
+    }
+    #menu {
+      background-color: #023e8a;
+      width: 100%;
+      height: 50px;
+    }
+    nav {
+      float: left;
+      margin-left: 120px;
+      padding: 0px;
+    }
+    ul {
+      background-color: #023e8a;
+      list-style-type: none;
+      font-family: 'Poppins', sans-serif;
+      padding: 0px;
+      margin: 0px;
+    }
+    li {
+      float: left;
+    }
+    li a {
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      padding: 10px 40px;
+      display: block;
+      text-align: center;
+    }
+    li a:hover {
+      background-color: #03045e;
+    }
+    #title {
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      margin: 5px;
+      float: left;
+    }
+    .logo img {
+      padding: 5px;
+      float: left;
+    }
+    .active {
+      background-color: #03045e;
+    }
+    #section1 {
+      background-color: #eaf4f4;
+      padding: 40px;
+      clear: both;
+    }
+    h2 {
+      font-family: 'Poppins', sans-serif;
+    }
+    #statistics {
+      width: 800px;
+    }
+    #statistics li {
+     list-style-type: circle;
+     background-color: #eaf4f4;
+     list-style-position: inside;
+    }
+    #power {
+    margin: 20px;
+    }
+    #moreInfo {
+      background-color: #0096c7;
+      text-align: center;
+    }
+    #section2 {
+      clear: both;
+      display: inline-block;
+      width: 400px;
+      padding: 10px;
+      margin: 50px;
+      background-color: #0096c7;
+      color: white;
+    }
+    #section3 {
+      clear: both;
+      display: inline-block;
+      width: 400px;
+      padding: 10px;
+      margin: 50px;
+      background-color: #0096c7;
+      color: white;
+    }
+    #causes {
+      list-style-type: circle;
+    }
+    #effects {
+      list-style-type: circle;
+    }
+    #section4 {
+      background-color: #fff;
+      clear: both;
+      display: inline-block;
+      padding: 10px;
+      margin: 50px;
+    }
+    #solutions {
+      list-style-type: circle;
+      background-color: #fff;
+      display: block;
+    }
+    #solutions li {
+      list-style-position: inside;
+    }
+    #images {
+      text-align: center;
+      margin: 5px;
+    }
+  </style>
+
+</head>
+<body>
+<!--This is the main body container-->
+<div id="mainContainer">
+
+<!--This is the menu bar-->
+<div id="menu">
+<div class="logo">
+ <img src="Images/texaslogo.png" width="40px" height="40px">
+<h2 id="title">Texas Outage Crisis</h2>
+</div>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a class="active" href="info.html">Info</a></li>
+<li><a href="resources.html">Resources</a></li>
+</ul>
+</nav>
+
+<!--Stats section-->
+<div id="section1">
+<h2>Quick Facts</h2>
+<ul id="statistics">
+  <li>Texas is experiencing snow in all counties for the first time in 126 years</li>
+  <li>The number of power outages reporting during the storm's peak is about 4.3 million</li>
+  <li>90% of Texas' power grid is operated by ERCOT</li>
+  <li>At least 22 people in Texas died in connection to the storm</li>
+  <li>8.8 million Texans still under boil water notices</li>
+</ul>
+<img id="power" src="Images/powermap.png" width="500px">
+</div>
+
+
+<div id="moreInfo">
+<!--Causes-->
+<div id="section2">
+<h2>Causes</h2>
+<ul id="causes">
+  <li>Record low temperatures</li>
+  <li>Frozen wind turbines</li>
+  <li>Most energy generations were offline</li>
+  <li>Failure to maintain power grid</li>
+  <li>Rolling blackouts</li>
+  <li>Pipes freezing and bursting</li>
+  <li>Could not keep up statewide demand for food</li>
+</ul>
+</div>
+
+<!--Effects-->
+<div id="section3">
+ <h2>Effects</h2>
+ <ul id="effects">
+   <li>Millions without power</li>
+   <li>Skyrocketing electricity bills</li>
+   <li>Food and water shortages</li>
+   <li>Carbon monoxide poisoning</li>
+   <li>Schools cancel classes</li>
+   <li>At least 22 people in Texas died</li>
+   <li>8.8 million Texans still under boil water notices</li>
+ </ul>
+</div>
+</div>
+
+<!--Solutions-->
+<div id="section4">
+  <h2>Possible Solutions</h2>
+  <ul id="solutions">
+    <li>Invest and construct more renewable clean energy in the future</li>
+    <li>Better leadership for disaster preparation</li>
+    <li>Addressing broken water pipes and other unproperly functioning infrastructure</li>
+    <li>Reforming the ERCOT</li>
+    <div id="images">
+    <img src="Images/line1.webp" width="400px">
+  </div>
+  </ul>
+</div>
+
+</div>
+</body>

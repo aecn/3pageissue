@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #dbe7e4;
+      }
+      #menu {
+        background-color: #023e8a;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+      }
+      nav {
+        float: left;
+        margin-left: 120px;
+        padding: 0px;
+      }
+      ul {
+        background-color: #023e8a;
+        list-style-type: none;
+        font-family: 'Poppins', sans-serif;
+        position: fixed;
+        padding: 0px;
+        margin: 0px;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        padding: 10px 40px;
+        display: block;
+        text-align: center;
+      }
+      li a:hover {
+        background-color: #03045e;
+      }
+      #title {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin: 5px;
+        float: left;
+      }
+      .logo img {
+        padding: 5px;
+        float: left;
+      }
+      .active {
+        background-color: #03045e;
+      }
+      #headerImg {
+        background-image: url("Images/background.jpg");
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        margin-bottom: 20px;
+      }
+      #section1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 900px;
+        background-color: #fff;
+        border: 2px solid black;
+      }
+      #subtitle {
+        font-family: 'Poppins', sans-serif;
+        float: right;
+        padding: 10px;
+      }
+      p {
+        font-family: 'Poppins', sans-serif;
+        float: right;
+        align: right;
+        margin-top: 15spx;
+        background-color: #fff;
+        padding: 10px;
+        border: 2px solid black;
+      }
+      img {
+        display: inline;
+        padding: 10px;
+        object-fit: cover;
+      }
+      #news {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 900px;
+        font-family: 'Poppins', sans-serif;
+      }
+      table {
+        border: 2px solid black;
+        background-color: #fff;
+        margin-bottom: 50px;
+      }
+      td {
+        padding: 10px;
+      }
+      h1 {
+        text-align: center;
+      }
+      #social {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 900px;
+        font-family: 'Poppins', sans-serif;
+      }
+      #gallery {
+        border: 2px solid black;
+        background-color: #fff;
+        margin-bottom: 50px;
+        width: 900px;
+        text-align: center;
+      }
+    </style>
+
+  </head>
+  <body>
+<!--This is the main body container-->
+<div id="mainContainer">
+
+<!--This is the menu bar-->
+<div id="menu">
+ <div class="logo">
+   <img src="Images/texaslogo.png" width="40px" height="40px">
+  <h2 id="title">Texas Outage Crisis</h2>
+</div>
+ <nav>
+  <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="info.html">Info</a></li>
+  <li><a href="resources.html">Resources</a></li>
+  </ul>
+ </nav>
+</div>
+
+<!--This is the header image-->
+<div id="headerImg"></div>
+
+<!--Brief summary section-->
+<div id="section1">
+<img src="Images/neighborhood.jpg" width="400">
+<h1 id="subtitle">What is happening in Texas?</h1>
+<p>As Texas finds itself in the midst of a rare and brutal blast of winter weather, with temperatures plunging below freezing levels, over 4.3 million people across the US state have been left without power after high demand for electricity caused the power grid to repeatedly fail.
+Over a dozen deaths have been attributed to the unprecedented winter storm ‘Uri’ so far in the state, with local authorities warning that frigid conditions are likely to continue for another few days. On Sunday, President Joe Biden declared an emergency in Texas, ordering federal assistance to aid response efforts.
+The Electricity Reliability Council of Texas (ERCOT), the operator of the state’s power grid, faced sharp criticism from state leadership, including Governor Greg Abbott, who said that the body “has been anything but reliable over the past 48 hours.”
+Meanwhile, the power grid operators have said that they have no way of predicting when the power outages will end.
+“We needed to step in and make sure that we were not going to end up with Texas in a blackout, which could keep folks without power — not just some people without power but everyone in our region without power — for much, much longer than we believe this event is going to last, as long and as difficult as this event is right now,” ERCOT CEO Bill Magness told Dallas Morning News.
+The sudden cold snap also sent natural gas and power prices soaring to record levels in some parts of the country, Bloomberg reported.
+- https://indianexpress.com/article/explained/texas-winter-storm-blackout-7192677/
+</p>
+</div>
+
+<!--News/current events section-->
+<div id="news">
+<h1>Notable News</h1>
+<table>
+ <tr>
+  <td>
+  <h3>The Dallas Morning News: "At least 6 dead in 133-car pileup in Fort Worth after freezing rain coats roads"</h3>
+  <img src="Images/fortworth.jpg" width="200px">
+  </td>
+  <td>
+  <h3>The Texas Tribune: "No, frozen wind turbines aren't the main culprit for Texas' power outages"</h3>
+  <img src="Images/wind.webp" width="200px">
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <h3>KHOU: "Texas boy dies after 2 nights in mobile home without power"</h3>
+  <img src="Images/neighborhood3.webp" width="200px">
+  </td>
+  <td>
+  <h3>Washington Post: "Hypothermia, carbon monoxide and cold pets: Google searches underscore depth of crisis in Texas"</h3>
+  <img src="Images/neighborhood2.webp" width="200px">
+  </td>
+ </tr>
+</table>
+</div>
+
+<!--Social media videos/pics section-->
+<div id="social">
+  <h1>Shared by Texans</h1>
+<div id="gallery">
+<img src="Images/kitchen.jpeg" width="250px" height="350px">
+<img src="Images/fountain.webp" width="250px" height="350px">
+<img src="Images/twitter.webp" width="250px" height="350px">
+<img src="Images/carwash.webp" width="250px" height="350px">
+<img src="Images/icicles.webp" width="250px" height="350px">
+<img src="Images/kitchen2.webp" width="250px" height="350px">
+</div>
+</div>
+  </body>
+</html>
